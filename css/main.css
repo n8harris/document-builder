@@ -1,0 +1,306 @@
+@import url(node_modules/furtive-print/index.css);
+
+@import url(node_modules/furtive-typescale/index.css);
+
+@import url(node_modules/furtive-responsive-utils/index.css);
+
+@import url(http://fonts.googleapis.com/css?family=Merriweather:300italic,300);
+
+@font-face {
+  font-family: 'ralewaybold';
+  src: url("../fonts/raleway-bold-webfont.woff2") format("woff2"), url("../fonts/raleway-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ralewayextrabold';
+  src: url("../fonts/raleway-extrabold-webfont.woff2") format("woff2"), url("../fonts/raleway-extrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ralewayregular';
+  src: url("../fonts/raleway-regular-webfont.woff2") format("woff2"), url("../fonts/raleway-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ralewaylight';
+  src: url("../fonts/raleway-light-webfont.woff2") format("woff2"), url("../fonts/raleway-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-size: 18px;
+  max-width: 100%;
+}
+
+body {
+  color: #444;
+  font-family: 'Merriweather', Georgia, serif;
+  margin: 0;
+  max-width: 100%;
+}
+
+/* === A bit of a gross hack so we can have bleeding divs/blockquotes. */
+
+p,
+*:not(div):not(img):not(body):not(html):not(li):not(blockquote):not(p) {
+  margin: 1rem auto 1rem;
+  max-width: 36rem;
+  padding: .3rem;
+}
+
+div {
+  width: 100%;
+}
+
+div img {
+  width: 100%;
+}
+
+blockquote p {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin: 1rem auto 1rem;
+  max-width: 48rem;
+}
+
+li {
+  margin-left: 2rem;
+}
+
+/* Counteract the specificity of the gross *:not() chain. */
+
+h1 {
+  padding: 4rem 0 !important;
+}
+
+/*  === End gross hack */
+
+p {
+  color: #555;
+  height: auto;
+  line-height: 1.45;
+}
+
+pre,
+code {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+pre {
+  background-color: #fafafa;
+  font-size: .8rem;
+  overflow-x: scroll;
+  padding: 1.125em;
+}
+
+a {
+  color: #3498db;
+}
+
+a:visited {
+  color: #3498db;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #2980b9;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left-col {
+  background: #5e5e6c;
+  padding-right: 0;
+}
+
+.left-col .name-info {
+  background: #4AA8A1;
+  padding: 3vw;
+}
+
+.left-col .name-info .name-header {
+  color: #fff;
+  font-family: 'ralewaybold', sans-serif;
+  font-size: 3vw;
+  font-weight: 900;
+  letter-spacing: 0.36em;
+  line-height: 1.15em;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #fff;
+}
+
+.left-col .name-info h4 {
+  color: #fff;
+  font-family: 'Merriweather', serif;
+  font-weight: 200;
+  letter-spacing: 0.1em;
+  line-height: 1.3em;
+  font-size: 1.3vw;
+  margin: 0;
+}
+
+.left-col .sub-info {
+  text-align: center;
+}
+
+.left-col .sub-info .sub-section {
+  padding: 3vw;
+}
+
+.left-col .sub-info .sub-section.references {
+  background: #7c7c8e;
+}
+
+.left-col .sub-info .sub-section .sub-info-heading {
+  margin-top: 0;
+  color: #fff;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  font-size: 2.2vw;
+}
+
+.left-col .sub-info .sub-section a {
+  color: #afdcd9;
+}
+
+.left-col .sub-info .sub-section a:hover {
+  color: #8cccc8;
+  text-decoration: none;
+}
+
+.left-col .sub-info .sub-section i.large-icon {
+  font-size: 2.8vw;
+  color: #fff;
+  margin-top: 0;
+}
+
+.left-col .sub-info .sub-section p,
+.left-col .sub-info .sub-section strong {
+  color: #fff;
+  font-size: 1.2vw;
+  letter-spacing: 0.1em;
+}
+
+.left-col .sub-info .sub-section p {
+  font-family: 'ralewaylight', sans-serif;
+}
+
+.left-col .sub-info .sub-section strong {
+  font-family: 'ralewayregular', sans-serif;
+}
+
+.left-col .sub-info .sub-section li {
+  list-style-type: none;
+  position: relative;
+  text-align: left;
+  margin: 2vw 0 2vw 4vw;
+  font-size: 1.2vw;
+}
+
+.left-col .sub-info .sub-section li i.more-info-icon {
+  position: absolute;
+  top: -0.3em;
+  margin: 0;
+  left: -3.7vw;
+  color: #fff;
+}
+
+.left-col .circle-img {
+  clip-path: circle(50% at center);
+  -webkit-clip-path: circle(50% at center);
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  width: 30%;
+}
+
+.right-col {
+  padding: 3vw;
+}
+
+.right-col .row {
+  margin-left: 0;
+}
+
+.right-col .first-row {
+  border-bottom: 2px solid #eaeaec;
+}
+
+.right-col .first-item {
+  border-right: 2px solid #eaeaec;
+}
+
+.right-col .right-col-header {
+  color: #5e5e6c;
+  font-family: 'ralewaybold', sans-serif;
+  font-size: 2.4vw;
+  font-weight: 900;
+  letter-spacing: 0.36em;
+  line-height: 1.15em;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #5e5e6c;
+  max-width: 100%;
+  margin-left: 0;
+}
+
+.right-col .right-col-section {
+  margin-bottom: 2vw;
+}
+
+.right-col .right-col-section.work-experience .workplace-item {
+  text-align: center;
+  padding-top: 1.7vw;
+  padding-bottom: 1.7vw;
+}
+
+.right-col .right-col-section.work-experience .workplace-img {
+  width: 6vw;
+  height: 6vw;
+}
+
+.right-col strong {
+  display: block;
+  margin: 0;
+  font-size: 1.5vw;
+  font-family: 'ralewayregular', sans-serif;
+}
+
+.right-col p {
+  margin: 0;
+  font-size: 1.2vw;
+}
+
+.right-col .ct-point {
+  stroke: #4AA8A1;
+}
+
+.right-col .ct-axis-title {
+  font-family: 'ralewayregular', sans-serif;
+  color: #5e5e6c;
+  font-size: 1.2vw;
+}
+
+.right-col .ct-label {
+  font-size: 1vw;
+  margin-top: 0;
+}
+
+.right-col .ct-bar {
+  stroke: #4AA8A1;
+}

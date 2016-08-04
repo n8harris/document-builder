@@ -1,0 +1,36 @@
+{
+  "name": "document-builder",
+  "version": "1.0.0",
+  "description": "A markdown/html/css/js document builder",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n8harris/document-builder.git"
+  },
+  "author": "Nathan Harris <nate@natepharris.me> (http://natepharris.me)",
+  "homepage": "https://github.com/n8harris/document-builder",
+  "dependencies": {
+    "furtive-print": "0.0.1",
+    "furtive-responsive-utils": "0.0.1",
+    "furtive-typescale": "0.0.4",
+    "bower": "^1.4.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-html-pdf": "^0.3.0",
+    "gulp-htmlincluder": "^0.1.0",
+    "gulp-markdown": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rework": "^1.0.3",
+    "gulp-sass": "^2.2.0",
+    "gulp-size": "^1.2.3",
+    "html-pdf": "^2.0.1",
+    "rework-class-prefix": "^1.0.1",
+    "rework-custom-media": "^0.2.0",
+    "rework-npm": "^1.0.0",
+    "rework-vars": "^3.1.1"
+  }
+}

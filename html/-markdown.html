@@ -1,0 +1,79 @@
+<div class="wrapper row">
+  <div class="left-col col-xs-4">
+    <div class="name-info">
+      <h2 class="name-header">Nate Harris</h2>
+      <h4>Full-stack Web Developer</h4>
+      <h4>Colorado Springs, CO</h4>
+    </div>
+    <div class="sub-info">
+      <div class="sub-section education">
+        <i class="large-icon fa fa-2x fa-graduation-cap" aria-hidden="true"></i>
+        <h2 class="sub-info-heading">Education</h2>
+        <img src="img/yellow-jacket.jpg" class="circle-img" />
+        <strong>Cedarville University</strong>
+        <p>Majored in Computer Science and Minored in Mathematics and Graphic Design. Graduated with Honor.</p>
+      </div>
+      <div class="sub-section references">
+        <i class="large-icon fa fa-2x fa-user" aria-hidden="true"></i>
+        <h2 class="sub-info-heading">References</h2>
+        <img src="img/jeremy.jpg" class="circle-img" />
+        <strong>Jeremy Wick</strong>
+        <p>Head of Video at Sticker Mule. Email: <a href="mailto:jecwick@gmail.com">jecwick@gmail.com</a></p>
+      </div>
+      <div class="sub-section more-info">
+        <i class="large-icon fa fa-2x fa-info-circle" aria-hidden="true"></i>
+        <h2 class="sub-info-heading">More Info</h2>
+        <ul>
+          <li><i class="more-info-icon fa fa-2x fa-github"></i> <a href="https://github.com/n8harris">github.com/n8harris</a></li>
+          <li><i class="more-info-icon fa fa-2x fa-gitlab"></i> <a href="https://gitlab.com/n8harris">gitlab.com/n8harris</a></li>
+          <li><i class="more-info-icon fa fa-2x fa-linkedin"></i> <a href="https://www.linkedin.com/in/n8harris">linkedin.com/in/n8harris</a></li>
+          <li><i class="more-info-icon fa fa-2x fa-briefcase"></i> <a href="http://natepharris.me">natepharris.me</a></li>
+          <li><i class="more-info-icon fa fa-2x fa-envelope"></i> <a href="mailto:nate@natepharris.me">nate@natepharris.me</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="right-col col-xs-8">
+    <div class="work-experience right-col-section">
+      <h2 class="right-col-header">Work Experience</h2>
+      <div class="first-row row">
+        <div class="workplace-item first-item col-xs-6">
+          <img class="workplace-img" src="img/ball.jpg" />
+          <strong>Ball Aerospace</strong>
+          <p>Software Engineer</p>
+          <p>June 2013 - June 2014</p>
+        </div>
+        <div class="workplace-item col-xs-6">
+          <img class="workplace-img" src="img/afrl.jpg" />
+          <strong>Air Force Research Lab</strong>
+          <p>Software Engineer</p>
+          <p>June 2014 - June 2015</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="workplace-item first-item col-xs-6">
+          <img class="workplace-img" src="img/focus.jpg" />
+          <strong>Focus on the Family</strong>
+          <p>Software Developer</p>
+          <p>June 2015 - Present</p>
+        </div>
+        <div class="workplace-item col-xs-6">
+          <img class="workplace-img" src="img/hively-blue-icon-logo.png" />
+          <strong>Hively</strong>
+          <p>Co-Founder / Software Developer</p>
+          <p>March 2016 - Present</p>
+        </div>
+      </div>
+    </div>
+    <div class="technologies-used">
+      <h2 class="right-col-header">Technologies Used</h2>
+      <div class="scatter-chart">
+      </div>
+    </div>
+    <div class="skills">
+      <h2 class="right-col-header">Skills</h2>
+      <div class="bar-chart">
+      </div>
+    </div>
+  </div>
+</div>

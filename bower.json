@@ -1,0 +1,21 @@
+{
+  "name": "document-builder",
+  "version": "1.0",
+  "authors": [
+    "Nathan Harris <nharris@cedarville.edu>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "fontawesome": "~4.6.0",
+    "chartist": "~0.9.8",
+    "chartist-plugin-pointlabels": "https://github.com/n8harris/chartist-plugin-pointlabels.git#6e191a4cc4cd8dcaa7840418b03cee9941d66b91",
+    "chartist-plugin-axistitle": "~0.0.1"
+  }
+}
